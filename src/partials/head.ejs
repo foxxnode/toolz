@@ -5,12 +5,7 @@
     <meta name="theme-color" content="#161625">
 
 	<link rel="icon" href="./assets/<%=page%>/icon.svg" type="image/svg+xml">
-	<% if (page == 'toolz') { %>
-		<link rel="canonical" href="https://d3ward.github.io/toolz">
-	<% } %>
-	<% if (page != 'toolz') { %>
-		<link rel="canonical" href="https://d3ward.github.io/toolz/<%=page%>">
-	<% } %>
+
     <title><%= title %></title>
   	<meta name="author" content="Ursu Eduard Cornelius">
 	<meta name="description" content="<%= description %>">
@@ -18,7 +13,7 @@
 	<!-- Google / Search Engine Tags -->
 	<meta itemprop="name" content="<%= title %>">
 	<meta itemprop="description" content="<%= description %>">
-	<meta itemprop="image" content="https://d3ward.github.io/toolz/assets/preview_toolz.png">
+	<meta itemprop="image" content="https://d3ward.github.io/toolz/./assets/preview_toolz.png">
 	<!-- Open Graph Tags -->
 	<meta property="og:url" content="<%= url %>">
 	<meta property="og:type" content="website">
@@ -32,5 +27,7 @@
 	<meta name="twitter:title" content="<%= title %>">
 	<meta name="twitter:description" content="<%= description %>">
 	<meta name="twitter:image" content="<%= preview_thumbnail %>">
+
+	<script async src="https://d3-umami.up.railway.app/script.js" data-website-id="5ab2d90c-53e1-41e5-9f5f-9f08e6792e8e"></script>
 
 </head>

@@ -6,13 +6,11 @@ module.exports = merge(main, {
 	mode: 'development',
 	devServer: {
 		static: {
-			directory: config.dist,
-			publicPath: '/'
+			directory: config.dist
 		},
 		compress: true,
 		port: 3000,
 		hot: true,
-		open: '/toolz/',
-		historyApiFallback: true
+		open: true
 	}
 })

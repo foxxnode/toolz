@@ -10,20 +10,16 @@ export function navbar() {
 		t.n.classList.add('active')
 	}
 	if (t.n) {
-		document.querySelector('nav>button').addEventListener('click', () => {
-			console.log('toggleNav')
-			if (t.n.classList.contains('active')) t.close()
-			else t.open()
-		})
 		document
-			.querySelector('nav>.nav-overlay')
-			.addEventListener('click', () => {
-				t.close()
+			.querySelector('nav>button')
+			.addEventListener('click', ()=>{
+				console.log('toggleNav')
+				if (t.n.classList.contains('active')) t.close()
+				else t.open()
 			})
-		document.querySelectorAll('nav ul > a').forEach((n) =>
-			n.addEventListener('click', () => {
-				t.close()
-			})
-		)
+		document.querySelector('nav>.nav-overlay').addEventListener('click',()=>{t.close()})
+		document
+			.querySelectorAll('nav ul > a')
+			.forEach((n) => n.addEventListener('click', ()=>{t.close()}))
 	}
 }
