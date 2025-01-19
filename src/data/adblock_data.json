@@ -4,8 +4,7 @@
 			"adtago.s3.amazonaws.com",
 			"analyticsengine.s3.amazonaws.com",
 			"analytics.s3.amazonaws.com",
-			"advice-ads.s3.amazonaws.com",
-			"advertising-api-eu.amazon.com"
+			"advice-ads.s3.amazonaws.com"
 		],
 		"Google Ads": [
 			"pagead2.googlesyndication.com",
@@ -34,7 +33,6 @@
 	},
 	"Analytics": {
 		"Google Analytics": [
-			"app-measurement.com",
 			"analytics.google.com",
 			"click.googleanalytics.com",
 			"google-analytics.com",
@@ -51,6 +49,9 @@
 		],
 		"MouseFlow": [
 			"mouseflow.com",
+			"cdn.mouseflow.com",
+			"o2.mouseflow.com",
+			"gtm.mouseflow.com",
 			"api.mouseflow.com",
 			"tools.mouseflow.com",
 			"cdn-test.mouseflow.com"
@@ -103,8 +104,7 @@
 			"ads.pinterest.com",
 			"log.pinterest.com",
 			"analytics.pinterest.com",
-			"trk.pinterest.com",
-			"widgets.pinterest.com"
+			"trk.pinterest.com"
 		],
 		"Reddit": [
 			"events.reddit.com",
@@ -130,7 +130,6 @@
 			"geo.yahoo.com",
 			"udc.yahoo.com",
 			"udcm.yahoo.com",
-			"advertising.yahoo.com",
 			"analytics.query.yahoo.com",
 			"partnerads.ysm.yahoo.com",
 			"log.fc.yahoo.com",
@@ -142,7 +141,6 @@
 			"appmetrica.yandex.ru",
 			"adfstat.yandex.ru",
 			"metrika.yandex.ru",
-			"advertising.yandex.ru",
 			"offerwall.yandex.net",
 			"adfox.yandex.ru"
 		],
@@ -167,7 +165,6 @@
 			"data.mistat.rus.xiaomi.com",
 			"sdkconfig.ad.xiaomi.com",
 			"sdkconfig.ad.intl.xiaomi.com",
-			"globalapi.ad.xiaomi.com",
 			"tracking.rus.miui.com"
 		],
 		"Oppo": [
@@ -196,11 +193,8 @@
 			"analytics-api.samsunghealthcn.com"
 		],
 		"Apple": [
-			"advertising.apple.com",
-			"tr.iadsdk.apple.com",
 			"iadsdk.apple.com",
 			"metrics.icloud.com",
-			"metrics.apple.com",
 			"metrics.mzstatic.com",
 			"api-adservices.apple.com",
 			"books-analytics-events.apple.com",

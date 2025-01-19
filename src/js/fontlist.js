@@ -19,7 +19,7 @@ if (tzversion !== version) {
 	//Show changelog
 	//ch_dialog.show()
 	//Set version
-	TZ.set('version', version)
+	//TZ.set('version', version)
 }
 var snackbar = new Snackbar({
 	topPos: '10px',
@@ -66,7 +66,7 @@ function generateCSS() {
 		r_lhv.innerText +
 		';\n' +
 		'}'
-	document.getElementById('css-code').innerHTML = css
+	document.getElementById('css-code').innerText = css
 }
 // Call the function when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
